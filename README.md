@@ -1,6 +1,6 @@
 # Hyper-V Management Pack Extensions 2019
 
-This Hyper-V Management Pack Extensions 2019 is intended to add performance monitoring to the existing Hyper-V Management Pack.
+This Hyper-V Management Pack Extensions 2019 is intended to add performance monitoring to the existing Hyper-V SCOM Management Pack.
 
 This MP has monitors, rules and views that are detailed below. To avoid huge database consumption most of the performance rules are disabled by default. You can use these rules for creating your environment baselines.
 
@@ -8,7 +8,7 @@ Monitors are enabled and ready to run on your SCOM environment.
 
 The configured thresholds on the monitors should cover most common scenarios but you may need to tune some of them to cover your own needs.
 
-## This Management Pack is provided "as is" without any official support from Microsoft.
+## This SCOM Management Pack is provided "as is" without any official support from Microsoft.
 
 ## New features/quality updates on release 3.0.0.40
 * Support for Windows Server 2019 Hyper-V.
