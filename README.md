@@ -38,7 +38,6 @@ Added the following Performance Rules on Hyper-V Virtual Processor level:
 * Hyper-V MPE 2019 Virtual Processor % Total Run Time
 * Hyper-V MPE 2019 Virtual Processor % Hypervisor Run Time
 
-
 Minor textual optimizations.
 
 ## Requirements
