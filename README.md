@@ -15,7 +15,7 @@ The configured thresholds on the monitors should cover most common scenarios but
 * Minor code optimizations.
 
 ## New features on release 3.0.0.41
-# Added the following Performance Rules on Hyper-V Host level:
+Added the following Performance Rules on Hyper-V Host level:
 * Hyper-V MPE 2019 Root Virtual Processor % Total Run Time
 * Hyper-V MPE 2019 Root Virtual Processor % Hypervisor Run Time
 * Hyper-V MPE 2019 Root Virtual Processor % Guest Run Time
@@ -28,13 +28,13 @@ The configured thresholds on the monitors should cover most common scenarios but
 * Hyper-V MPE 2019 Dynamic Memory Balancer Available Memory (MBytes)
 * Hyper-V MPE 2019 Dynamic Memory Balancer Average Pressure (%)
 
-# Added the following Performance Rules on Hyper-V VM level:
+Added the following Performance Rules on Hyper-V VM level:
 * Hyper-V MPE 2019 Dynamic Memory VM Average Pressure (%)
 
-# Added the following Performance Rules on Hyper-V Logical Processor level:
+Added the following Performance Rules on Hyper-V Logical Processor level:
 * Hyper-V MPE 2019 % Guest Run Time
 
-# Added the following Performance Rules on Hyper-V Virtual Processor level:
+Added the following Performance Rules on Hyper-V Virtual Processor level:
 * Hyper-V MPE 2019 Virtual Processor % Total Run Time
 * Hyper-V MPE 2019 Virtual Processor % Hypervisor Run Time
 
