@@ -39,7 +39,7 @@ Added the following Performance Rules on Hyper-V Virtual Processor level:
 * Hyper-V MPE 2019 Virtual Processor % Hypervisor Run Time
 
 
-Minor code optimizations.
+Minor textual optimizations.
 
 ## Requirements
 SCOM 2019 Operations Manager or higher.
