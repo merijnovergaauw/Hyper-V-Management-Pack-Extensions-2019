@@ -10,11 +10,11 @@ The configured thresholds on the monitors should cover most common scenarios but
 
 ## This Management Pack is provided "as is" without any official support from Microsoft.
 
-## New features and/or quality updates on release 3.0.0.40
+## New features/quality updates on release 3.0.0.40
 * Support for Windows Server 2019 Hyper-V.
 * Minor code optimizations.
 
-## New features and/or quality updates on release 3.0.0.41
+## New features/quality updates on release 3.0.0.41
 Added the following Performance Rules on Hyper-V Host level:
 * Hyper-V MPE 2019 Root Virtual Processor % Total Run Time
 * Hyper-V MPE 2019 Root Virtual Processor % Hypervisor Run Time
