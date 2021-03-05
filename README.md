@@ -51,7 +51,7 @@ Management Packs:
 
 
 ## Credits
-This MP is based on the Hyper-V Management Pack Extensions 2016: https://github.com/dmrellan/Hyper-V-Management-Pack-Extensions-2016
+Initital release was based on the Hyper-V Management Pack Extensions 2016: https://github.com/dmrellan/Hyper-V-Management-Pack-Extensions-2016
 
 
 
