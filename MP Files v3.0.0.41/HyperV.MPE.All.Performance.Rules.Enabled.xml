@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ManagementPack ContentReadable="true" SchemaVersion="2.0" OriginalSchemaVersion="1.1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <Manifest>
+    <Identity>
+      <ID>HyperV.MPE.All.Performance.Rules.Enabled</ID>
+      <Version>1.0.0.0</Version>
+    </Identity>
+    <Name>Hyper-V MPE 2019 All Performance Rules Enabled</Name>
+    <References>
+      <Reference Alias="MPE">
+        <ID>HyperV.MPE.2019.Monitoring</ID>
+        <Version>3.0.0.41</Version>
+        <PublicKeyToken>af3f51199b0e6def</PublicKeyToken>
+      </Reference>
+      <Reference Alias="MPE1">
+        <ID>HyperV.MPE.2019.Discovery</ID>
+        <Version>3.0.0.41</Version>
+        <PublicKeyToken>af3f51199b0e6def</PublicKeyToken>
+      </Reference>
+      <Reference Alias="SystemCenter">
+        <ID>Microsoft.SystemCenter.Library</ID>
+        <Version>7.0.8448.6</Version>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+      </Reference>
+      <Reference Alias="Windows1">
+        <ID>Microsoft.Windows.HyperV.Library</ID>
+        <Version>11.0.1.0</Version>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+      </Reference>
+      <Reference Alias="Windows">
+        <ID>Microsoft.Windows.HyperV.Discovery</ID>
+        <Version>11.0.1.0</Version>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+      </Reference>
+    </References>
+  </Manifest>
+  <Monitoring>
+    <Overrides>
+      <RulePropertyOverride ID="Alias251d221377e040fbbf7b72450c3fc842OverrideForRuleHyperVMPE2019VirtualMachineDMPhysicalMemoryRuleForContextMicrosoftWindowsHyperVDiscoveryVirtualMachine" Context="Windows!Microsoft.Windows.HyperV.Discovery.VirtualMachine" Enforced="false" Rule="MPE!HyperV.MPE.2019.VirtualMachine.DMPhysicalMemory.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias8cbf3c97e6404047a77afc16a28503baOverrideForRuleHyperVMPE2019VirtualMachineDMVMGuestVisiblePhysicalMemoryRuleForContextMicrosoftWindowsHyperVDiscoveryVirtualMachine" Context="Windows!Microsoft.Windows.HyperV.Discovery.VirtualMachine" Enforced="false" Rule="MPE!HyperV.MPE.2019.VirtualMachine.DMVMGuestVisiblePhysicalMemory.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias2f09eab0675f4b52b3521d28ff75dc02OverrideForRuleHyperVMPE2019LogicalProcessorContextSwitchesRuleForContextHyperVMPE2019LogicalProcessor" Context="MPE1!HyperV.MPE.2019.LogicalProcessor" Enforced="false" Rule="MPE!HyperV.MPE.2019.LogicalProcessor.ContextSwitches.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Aliasf9814700694a4492849b07e4af419e77OverrideForRuleHyperVMPE2019LogicalProcessorHypervisorRunTimeRuleForContextHyperVMPE2019LogicalProcessor" Context="MPE1!HyperV.MPE.2019.LogicalProcessor" Enforced="false" Rule="MPE!HyperV.MPE.2019.LogicalProcessor.HypervisorRunTime.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias364778af91034da8aff7927a9febf122OverrideForRuleHyperVMPE2019LogicalProcessorTotalRunTimeRuleForContextHyperVMPE2019LogicalProcessor" Context="MPE1!HyperV.MPE.2019.LogicalProcessor" Enforced="false" Rule="MPE!HyperV.MPE.2019.LogicalProcessor.TotalRunTime.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Aliasc342e52691d041f0a2bdd608d11241f2OverrideForRuleHyperVMPE2019SRHVSMBClientSharesAvgSecReadRuleForContextHyperVMPE2019SMBShare" Context="MPE1!HyperV.MPE.2019.SMBShare" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.SMBClientShares.AvgSecRead.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias2eb1891e015045928ada4c5eb8137786OverrideForRuleHyperVMPE2019SRHVSMBClientSharesDataRequestsSecRuleForContextHyperVMPE2019SMBShare" Context="MPE1!HyperV.MPE.2019.SMBShare" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.SMBClientShares.DataRequestsSec.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Aliasbcb0afe111914efa86dd026b554e353bOverrideForRuleHyperVMPE2019SRHVSMBClientSharesAvgDataQueueLengthRuleForContextHyperVMPE2019SMBShare" Context="MPE1!HyperV.MPE.2019.SMBShare" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.SMBClientShares.AvgDataQueueLength.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias6d32d37aa5704832aece57d1c584c9d6OverrideForRuleHyperVMPE2019SRHVVirtualStorageDeviceWritesBytesSecRuleForContextHyperVMPE2019VMsVHDs" Context="MPE1!HyperV.MPE.2019.VMs.VHDs" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.VirtualStorageDeviceWritesBytesSec.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias70a40ce953b94f3887f02ce3cc193d3bOverrideForRuleHyperVMPE2019SRHVVirtualStorageDeviceReadBytesSecRuleForContextHyperVMPE2019VMsVHDs" Context="MPE1!HyperV.MPE.2019.VMs.VHDs" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.VirtualStorageDeviceReadBytesSec.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias2868f7ac3e654237a56203935e300c09OverrideForRuleHyperVMPE2019VirtualProcessorGuestRunTimeRuleForContextHyperVMPE2019VirtualProcessor" Context="MPE1!HyperV.MPE.2019.VirtualProcessor" Enforced="false" Rule="MPE!HyperV.MPE.2019.VirtualProcessor.GuestRunTime.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias9ed880e3d4f5406e820c2ada5f313840OverrideForRuleHyperVMPE2019SRHVVirtualSwitchBytesSecRuleForContextMicrosoftWindowsHyperVVirtualExternalNetwork" Context="Windows1!Microsoft.Windows.HyperV.VirtualExternalNetwork" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.VirtualSwitchBytesSec.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias2dce2cbd33da46139488f76a95d1976bOverrideForRuleHyperVMPE2019SRHVVirtualSwitchBytesSecRuleForContextMicrosoftWindowsHyperVVirtualInternalNetwork" Context="Windows1!Microsoft.Windows.HyperV.VirtualInternalNetwork" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.VirtualSwitchBytesSec.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias74f7533851dc439eb19db56da93b3100OverrideForRuleHyperVMPE2019SRHVProcessorQueueLengthRuleForContextMicrosoftWindowsHyperVDiscoveryServerRole" Context="Windows!Microsoft.Windows.HyperV.Discovery.ServerRole" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.ProcessorQueueLength.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias9fa0a602844840e68f3768bcf6a8e482OverrideForRuleHyperVMPE2019SRHVNetworkInterfaceReceivedRuleForContextMicrosoftWindowsHyperVDiscoveryServerRole" Context="Windows!Microsoft.Windows.HyperV.Discovery.ServerRole" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.NetworkInterfaceReceived.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias02b5a36cc81b4a6785e61d6308358d51OverrideForRuleHyperVMPE2019SRHVNetworkInterfaceBytesSentRuleForContextMicrosoftWindowsHyperVDiscoveryServerRole" Context="Windows!Microsoft.Windows.HyperV.Discovery.ServerRole" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.NetworkInterfaceBytesSent.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias42264f5febee4c83b1cc074658b3e818OverrideForRuleHyperVMPE2019SRHVContextSwitchesSecCounterRuleForContextMicrosoftWindowsHyperVDiscoveryServerRole" Context="Windows!Microsoft.Windows.HyperV.Discovery.ServerRole" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.ContextSwitchesSecCounter.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias913c77525c26498fb0cc5d3570910975OverrideForRuleHyperVMPE2019SRHVNUMANodePageCountRuleForContextMicrosoftWindowsHyperVDiscoveryServerRole" Context="Windows!Microsoft.Windows.HyperV.Discovery.ServerRole" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.NUMANodePageCount.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Aliasd512739c2a4b481c9391ad094f8315eaOverrideForRuleHyperVMPE2019SRHVNUMANodeProcessorCountRuleForContextMicrosoftWindowsHyperVDiscoveryServerRole" Context="Windows!Microsoft.Windows.HyperV.Discovery.ServerRole" Enforced="false" Rule="MPE!HyperV.MPE.2019.SRHV.NUMANodeProcessorCount.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias30e5ed6a7b7d4c73a506e432d6aa1e3fOverrideForRuleHyperVMPE2019LogicalProcessorGuestRunTimeRuleForContextHyperVMPE2019LogicalProcessor" Context="MPE1!HyperV.MPE.2019.LogicalProcessor" Enforced="false" Rule="MPE!HyperV.MPE.2019.LogicalProcessor.GuestRunTime.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias48b7a537e0f54791a61282017978c83bOverrideForRuleHyperVMPE2019VirtualMachineDMPhysicalMemoryRuleForContextHyperVMPE2019VirtualMachineReplica" Context="MPE1!HyperV.MPE.2019.VirtualMachineReplica" Enforced="false" Rule="MPE!HyperV.MPE.2019.VirtualMachine.DMPhysicalMemory.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias38d50e404ae5460ca6650655eb971455OverrideForRuleHyperVMPE2019VirtualMachineDMVMGuestVisiblePhysicalMemoryRuleForContextHyperVMPE2019VirtualMachineReplica" Context="MPE1!HyperV.MPE.2019.VirtualMachineReplica" Enforced="false" Rule="MPE!HyperV.MPE.2019.VirtualMachine.DMVMGuestVisiblePhysicalMemory.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Alias3bc68839df334e14b5d95b0d8ac5d36cOverrideForRuleHyperVMPE2019VirtualProcessorTotalRunTimeRuleForContextHyperVMPE2019VirtualProcessor" Context="MPE1!HyperV.MPE.2019.VirtualProcessor" Enforced="false" Rule="MPE!HyperV.MPE.2019.VirtualProcessor.TotalRunTime.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+      <RulePropertyOverride ID="Aliasaca05ef004604d069b0b50b7f24e1b4eOverrideForRuleHyperVMPE2019VirtualProcessorHypervisorRunTimeRuleForContextHyperVMPE2019VirtualProcessor" Context="MPE1!HyperV.MPE.2019.VirtualProcessor" Enforced="false" Rule="MPE!HyperV.MPE.2019.VirtualProcessor.HypervisorRunTime.Rule" Property="Enabled">
+        <Value>true</Value>
+      </RulePropertyOverride>
+    </Overrides>
+  </Monitoring>
+  <LanguagePacks>
+    <LanguagePack ID="ENU" IsDefault="false">
+      <DisplayStrings>
+        <DisplayString ElementID="HyperV.MPE.All.Performance.Rules.Enabled">
+          <Name>Hyper-V MPE 2019 All Performance Rules Enabled</Name>
+        </DisplayString>
+      </DisplayStrings>
+    </LanguagePack>
+  </LanguagePacks>
+</ManagementPack>
