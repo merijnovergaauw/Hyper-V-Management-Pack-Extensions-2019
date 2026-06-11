@@ -10,6 +10,11 @@ The configured thresholds on the monitors should cover most common scenarios but
 
 ## This SCOM Management Pack is provided "as is" without any official support from Microsoft.
 
+## Project continuation
+
+Development of this project is continued in the GripMatix community project:
+https://github.com/gripmatix/GripMatix-Hyper-V-Management-Pack-Extensions
+
 ## New features/quality updates on release 3.0.0.40
 * Support for Windows Server 2019 Hyper-V.
 * Minor code optimizations.
